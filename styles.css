@@ -1,0 +1,130 @@
+
+  
+/* Mobile-friendly styles */
+    body {
+      font-size: 14px;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+    }
+
+
+    .topImg {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+   
+    p {
+      font-size: 14px;
+      line-height: 1.5;
+      margin: 10px 0;
+      text-align: justify;
+    }
+
+/* Animation Text hover over image */
+.hoverContainer {
+  position: relative;
+  width: 100%;
+}
+
+.hoverImg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(0, 0, 0);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.hoverContainer:hover .overlay {
+  height: 100%;
+}
+
+.hello {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+/* Animation Text hover over image Large */
+.hoverContainerL {
+  position: relative;
+  width: 100%;
+}
+
+.hoverImg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+
+.hoverContainerL:hover .overlay {
+  height: 100%;
+}
+
+.helloL {
+  color: rgb(153, 133, 133);
+  font-size: 70px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+
+
+    footer {
+      background-color: #ffffff;
+      color: #000000;
+      padding: 20px 0;
+      font-size: 14px;
+    }
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    .footerUl {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .footerList {
+      display: inline-block;
+      margin-right: 20px;
+    }
+    
+   .footerA {
+      color: #000000;
+      text-decoration: none;
+    }
+    
+  
