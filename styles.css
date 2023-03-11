@@ -15,12 +15,7 @@
         margin: 0 auto;
     }
    
-    p {
-      font-size: 14px;
-      line-height: 1.5;
-      margin: 10px 0;
-      text-align: justify;
-    }
+ 
 
 
 
@@ -28,15 +23,38 @@
 
 .reveal{
   position: relative;
-  transform: translateY(130px);
+  transform: translateY(110px);
   opacity: 0;
   transition: 2s all ease;
 }
+  
+.reveal1{
+    position: relative;
+    transform: translateY(160px);
+    opacity: 0;
+    transition: 2s all ease;
+}
+.reveal2{
+    position: relative;
+    transform: translateY(180px);
+    opacity: 0;
+    transition: 2s all ease;
+}
+
 .reveal.active{
   transform: translateY(0);
   opacity: 1;
 }
 
+.reveal1.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.reveal2.active{
+  transform: translateY(0);
+  opacity: 1;
+}
 
 
 /* footer */
@@ -70,5 +88,6 @@ footer {
   color: #000000;
   text-decoration: none;
 }
+
 
 
