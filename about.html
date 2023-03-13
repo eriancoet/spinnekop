@@ -35,6 +35,8 @@
                 <a class="dropdown-item" href="animation.html">Animation & Video</a>
                 <a class="dropdown-item" href="graphic.html">Graphic Design</a>
                 <a class="dropdown-item" href="onlinemarketing.html">Online Marketing</a>
+                <a class="dropdown-item" href="projects.html">Projects</a>
+
               </div>
             </li>
             <li class="nav-item">
@@ -56,10 +58,10 @@
    <br>
     <!-- Create Content eg. Text based information, Video, Images jquery animations, slider for 
         images (payment gateway for payments later) -->
-    <div class="contentTop">
+    <div class="contentTop reveal">
       <div class="m-2 pb-3">     
          <h2 class="text-center text-secondary pb-sm-6">About Spinnekop</h1>
-          <h3 class="text-center text-dark pb-sm-6">
+          <h3 class="text-center text-dark pb-sm-6 reveal">
             
             Spinnekop is an innovative web development, graphic design and video marketing 
             studio that offers a wide range of services to its clients. From animation and 
@@ -77,45 +79,42 @@
       </div>
      
  <!-- End your project here-->
- <div>
-  <h2 class="text-center text-secondary pb-sm-6 reveal">Projects/Portfolio</h2>
-  <div class="m-2 pb-2">     
-    <h3 class="text-center text-secondary pb-sm-3 reveal">Web Development, Graphic Design, Animations, Video Production and other technologies</h3>
- </div>
-  <div class="container justify-content-center pb-sm-4 reveal">
-    <div class="row">
-      <div class="col-sm">
-        <a href="https://aerrest.vercel.app/home">
-          <div class="hoverContainer">
-            <img src="images/aer.png" alt="African Elly" class="reveal">
-            <div class="overlay">
-              <div class="hello reveal">African Elephant Restaurant</div>
-            </div>
-          </div>
-        </a>
+ <!-- Create Contact form -->
+ <br>
+
+ <div class="contentTop">
+     <div class="m-4 pb-5">     
+        <h2 class="text-center text-secondary pb-sm-6 reveal">Contact Spinnekop</h1>
+     </div>
+     <div class="row reveal">
+       <div class="mx-auto col-10 col-md-8 col-lg-6">
+       <form class="form-group" action="https://formsubmit.co/eriancoet@gmail.com" method="POST">
+         <div class="form-row">
+             <div class="form-group col-md-6">
+         <input type="hidden" name="_autoresponse" value="This an auto response showing that we got your message.">
+         <input type="hidden" name="_subject" value="New Spinnekop Mail!!!">
+         <label for="inputFName4">Full Name</label>
+         <input class="form-control name" type="name" name="name" placeholder="Your Full Name" required>
+         </div>
       </div>
-      <div class="col-sm">
-        <a href="https://delicate-dream-8335.bss.design">
-          <div class="hoverContainer">
-            <img src="images/anna.png" alt="Guesthouse" class="reveal">
-            <div class="overlay">
-              <div class="hello reveal">Anna Katarina Guesthouse</div>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="col-sm">
-        <a href="https://eriancoet.github.io/Ecommerce/">
-          <div class="hoverContainer">
-            <img src="images/ecom.png" alt="E-commerce" class="reveal">
-            <div class="overlay">
-              <div class="hello reveal">E-Commerce Project</div>
-            </div>
-          </div>
-        </a>
-      </div>
-    </div>
-  </div>
+
+      <div class="form-group">
+         <label for="inputEmail4">Email</label>
+         <input  class="form-control email" type="email" name="email" placeholder="Your email" required>
+         <input type="hidden" name="_next" value="https://spinnekop.co.za/thanks.html">
+     </div>
+     <div class="form-group">
+         <label for="FormControlTextarea1">Message</label>
+         <input class="form-control" type="hidden" name="_template" value="box">
+         <textarea class="form-control message" type="text" name="message" class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+     </div>
+     <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+</div>
+</div>
+</div>
+
     
     <footer class="justify-content-center">
       <div class="container">
