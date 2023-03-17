@@ -1,0 +1,32 @@
+// Variables
+$primary-color: #000;
+$secondary-color: #666;
+$text-color: #fff;
+
+// Loader styles
+.loader {
+  background: $primary-color;
+}
+
+// Container styles
+.container {
+  // ...
+}
+
+// Image styles
+.image {
+  // ...
+
+  img {
+    // ...
+  }
+}
+
+// Text styles
+.text {
+  // ...
+
+  &.active {
+    // ...
+  }
+}
