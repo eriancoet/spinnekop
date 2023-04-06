@@ -56,6 +56,15 @@
   opacity: 1;
 }
 
+.brown { color: #0095ee; }
+
+/* resize the image*/
+.size {
+  width: 24%;
+  height: auto;
+
+}
+
 
 /* footer */
 
