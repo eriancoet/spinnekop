@@ -9,3 +9,13 @@ body {
     height: auto;
   }
 
+ .PicActive {
+    width:80%;
+    height:"auto";
+    border-color: #000000;
+    border-style: solid;
+    border-width: 40px;
+ } 
+
+ 
+
