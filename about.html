@@ -45,7 +45,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active">
           <a class="nav-link" href="about.html">Portfolio</a>
@@ -79,72 +79,17 @@
   <br>
   <br>
   <br>
-  <!-- Create Content eg. Text based information, Video, Images jquery animations, slider for 
-        images (payment gateway for payments later) -->
-  <div class="contentTop reveal">
-     <div>
-      <img onclick="active" class="size" src="Troy/1.jpg">
-      <img class="size" src="Troy/2.jpg">
-      <img class="size" src="Troy/3.jpg">
-      <img class="size" src="Troy/4.jpg">
-      <img class="size" src="Troy/5.jpg">
-      <img class="size" src="Troy/6.jpg">
-      <img class="size" src="Troy/7.jpg">
-      <img class="size" src="Troy/8.jpg">
-      <img class="size" src="Troy/9.jpg">
-      <img class="size" src="Troy/10.jpg">
-      <img class="size" src="Troy/11.jpg">
-      <img class="size" src="Troy/12.jpg">
-      <img class="size" src="Troy/13.jpg">
-      <img class="size" src="Troy/14.jpg">
-      <img class="size" src="Troy/15.jpg">
-      <img class="size" src="Troy/16.jpg">
-      <img class="size" src="Troy/17.jpg">
-      <img class="size" src="Troy/18.jpg">
-      <img class="size" src="Troy/19.jpg">
-      <img class="size" src="Troy/20.jpg">
-      <img class="size" src="Troy/21.jpg">
-      <img class="size" src="Troy/22.jpg">
-      <img class="size" src="Troy/23.jpg">
-      <img class="size" src="Troy/24.jpg">
-      <img class="size" src="Troy/25.jpg">
-      <img class="size" src="Troy/26.jpg">
-      <img class="size" src="Troy/27.jpg">
-      <img class="size" src="Troy/28.jpg">
-      <img class="size" src="Troy/29.jpg">
-      <img class="size" src="Troy/30.jpg">
-      <img class="size" src="Troy/31.jpg">
-      <img class="size" src="Troy/32.jpg">
-      <img class="size" src="Troy/33.jpg">
-      <img class="size" src="Troy/34.jpg">
-      <img class="size" src="Troy/35.jpg">
-      <img class="size" src="Troy/36.jpg">
-      <img class="size" src="Troy/37.jpg">
-      <img class="size" src="Troy/38.jpg">
-      <img class="size" src="Troy/39.jpg">
-      <img class="size" src="Troy/40.jpg">
-      <img class="size" src="Troy/41.jpg">
-      <img class="size" src="Troy/42.jpg">
-      <img class="size" src="Troy/43.jpg">
-      <img class="size" src="Troy/44.jpg">
-      <img class="size" src="Troy/circus.jpg">
-      <img class="size" src="Troy/killwhitepeople.jpg">
-      <img class="size" src="Troy/46.jpg">
-      <img class="size" src="Troy/47.jpg">
-      <img class="size" src="Troy/48.jpg">
-      <img class="size" src="Troy/49.jpg">
-      <img class="size" src="Troy/50.jpg">
-      <img class="size" src="Troy/52.jpg">
-      <img class="size" src="Troy/53.jpg">
-      <img class="size" src="Troy/54.jpg">
-      <img class="size" src="Troy/55.jpg">
-      <img class="size" src="Troy/56.jpg">
-      <img class="size" src="Troy/da.jpg">
-      <img class="size" src="Troy/57.jpg">
-    </div>  
+  <div class="gallery">
+    <!-- Images will be dynamically generated here -->
+  </div>
+  
+  <div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+      <div class="mySlides"></div>
     </div>
-<br>
-
+  </div>
+  
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="script.js"></script>
@@ -159,6 +104,7 @@
     </script>
     <script src="scripts/script.js"></script>
     <script src="scripts/JSscroll.js"></script>
+    <script src="modalScript.js"></script>
 </body>
 
 </html>
