@@ -1,6 +1,6 @@
 # spinnekop
 
-Web Development Service in South Africa
-Web Design, Hosting and URL. 
+Portfolio Website for Rian Coetzee
+Full Stack Web Development
 
 Develop Web Applications
