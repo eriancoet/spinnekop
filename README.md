@@ -1,6 +1,5 @@
 # spinnekop
 
-Web Development Service in South Africa
-Web Design, Hosting and URL. 
+Portfolio
 
 Develop Web Applications
