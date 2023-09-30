@@ -50,6 +50,7 @@
   
 /* footer */
 
+
 footer {
   background-color: #ffffff;
   color: #000000;
@@ -71,8 +72,9 @@ footer {
 }
 
 .footerList {
-  display: inline-block;
-  margin-right: 20px;
+  display: flex;
+  padding: 5px;
+  justify-content: center;
 }
 
 .footerA {
@@ -80,5 +82,13 @@ footer {
   text-decoration: none;
 }
 
+.icons {
+  display: flex;
+  margin-left: 20%;
+  margin-right: 20%;
+}
 
-
+.icon-pics {
+  height: 40px;
+  width: auto;
+}
