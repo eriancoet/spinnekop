@@ -48,37 +48,3 @@
     }
   }
   
-/* footer */
-
-footer {
-  background-color: #ffffff;
-  color: #000000;
-  padding: 20px 0;
-  font-size: 14px;
-}
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-}
-
-.footerUl {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.footerList {
-  display: inline-block;
-  margin-right: 20px;
-}
-
-.footerA {
-  color: #000000;
-  text-decoration: none;
-}
-
-
-
