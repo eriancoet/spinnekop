@@ -16,7 +16,9 @@
     }
    
  
-
+.hidden {
+  opacity: 0;
+}
 
 
 /* scroll animation */
